@@ -1,17 +1,23 @@
 h1{
     text-align: center;
-    margin-top: 30px;
+    
     font-size: 175%;
 }
 .row{
     margin-left: 10px;
+    margin-top: 100px;
     width: 100%;
 }
 .section-title{
-    border: 1px solid;
+    border: 2px solid;
     text-align: center;
     width: 80px;
     font-size: 125%;
+    float: right;
+}
+body{
+    background-color: aliceblue;
+    
 }
 .st1{
     background-color: rgb(98, 215, 236);
@@ -22,11 +28,21 @@ h1{
 .st3{
     background-color: antiquewhite;
 }
-
+p{
+    overflow-y: scroll;
+    height: 150px;
+    clear: right;
+    padding: 15px;
+}
+.col-lg-4:hover{
+    background-color:peachpuff;
+    font-size: larger;
+    
+}
 .col-lg-4, .col-md-6, .col-sm-1{
     box-sizing: border-box;
     background-color: rgb(210, 211, 212);
-    border: 2px solid;
+    border: 3px solid;
     float: left;
 }
 @media (min-width:992px){
